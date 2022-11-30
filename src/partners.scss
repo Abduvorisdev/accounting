@@ -1,0 +1,15 @@
+.partners{
+  &__layout{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  &__item{
+    filter: grayscale(100);
+    transition: all ease-in-out .2s;
+    &:hover{
+      filter: grayscale(0);
+      transition: all ease-in-out .2s;
+    }
+  }
+}

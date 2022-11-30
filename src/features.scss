@@ -1,0 +1,39 @@
+.features{
+  &__layout{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 100px;
+  }
+  &__buttons{
+    margin-top: 30px;
+    display: flex;
+    grid-gap: 20px;
+    justify-content: center;
+  }
+  &__item{
+    display: flex;
+    align-items: start;
+  }
+  &__number{
+    font-size: 3rem;
+    color: #999;
+    font-weight: normal;
+    margin-right: 20px;
+    line-height: 3rem;
+  }
+  &__text{
+    & span{
+      color: $main;
+      font-size: 14px;
+    }
+    & h3{
+      padding-top: 0px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    & p{
+      font-size: 15px;
+      color: #888;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.partners__layout {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.partners__item {
+  filter: grayscale(100);
+  transition: all ease-in-out 0.2s;
+}
+.partners__item:hover {
+  filter: grayscale(0);
+  transition: all ease-in-out 0.2s;
+}/*# sourceMappingURL=partners.css.map */

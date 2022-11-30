@@ -1,0 +1,43 @@
+.quote{
+  &-slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  & .swiper-slide{
+    opacity: .3;
+    transition: all ease-in-out .3s;
+    transform: scale(0.8);
+    &.swiper-slide-active{
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  &-icon{
+    & i{
+      font-size: 30px;
+    }
+    margin-bottom: 20px;
+  }
+
+  & p{
+    color: #333;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  &-author{
+    & h3{
+      font-size: 18px;
+      margin-bottom: 0px;
+      font-weight: bold;
+    }
+    & span{
+      font-size: 14px;
+      color: #999;
+    }
+  }
+}

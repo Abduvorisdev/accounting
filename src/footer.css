@@ -1,0 +1,5 @@
+.footer-cells {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

@@ -1,0 +1,36 @@
+.quote-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.quote .swiper-slide {
+  opacity: 0.3;
+  transition: all ease-in-out 0.3s;
+  transform: scale(0.8);
+}
+.quote .swiper-slide.swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
+.quote-icon {
+  margin-bottom: 20px;
+}
+.quote-icon i {
+  font-size: 30px;
+}
+.quote p {
+  color: #333;
+  font-size: 16px;
+  line-height: 26px;
+}
+.quote-author h3 {
+  font-size: 18px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.quote-author span {
+  font-size: 14px;
+  color: #999;
+}/*# sourceMappingURL=quote.css.map */

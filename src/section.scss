@@ -1,0 +1,47 @@
+.section{
+  padding: 80px 0px;
+  &__container{
+    width: $container;
+    margin: 0 auto;
+  }
+  &-heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__header{
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-top: 5px;
+      font-size: 32px;
+    }
+    &__slogan{
+      color: #666;
+      font-size: 15px;
+      //font-style: italic;
+    }
+    &__subtitle{
+      margin-top: 20px;
+      width: 45%;
+      text-align: center;
+      color: #999;
+      font-size: 14px;
+    }
+    &__icon{
+      &:after{
+        content: '';
+        width: 20px;
+        height: 4px;
+        display: block;
+        background: #000;
+      }
+      &:before{
+        content: '';
+        width: 20px;
+        height: 4px;
+        display: block;
+        background: #000;
+        margin-left: 10px;
+      }
+    }
+  }
+}
